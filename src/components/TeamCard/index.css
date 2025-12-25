@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.link {
+  text-decoration: none;
+  width: 49%;
+  cursor: pointer;
+}
+
+.li {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-right: 15px;
+  margin-top: 20px;
+  height: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  background-color: #ffffff33;
+}
+
+.tb {
+  height: 80px;
+  margin-right: 15px;
+}
+
+.mp {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .tb {
+    height: 40px;
+  }
+  .mp {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .link {
+    min-width: 100%;
+  }
+  .li {
+    min-width: 100%;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+  }
+  .tb {
+    height: 50px;
+  }
+  .mp {
+    font-size: 15px;
+  }
+}

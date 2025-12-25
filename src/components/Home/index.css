@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.ipd {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 15px;
+}
+
+.mh {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .logo {
+    height: 30px;
+  }
+
+  .ul {
+    flex-direction: column;
+    padding: 0px;
+  }
+}

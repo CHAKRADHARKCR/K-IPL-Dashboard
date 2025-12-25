@@ -1,0 +1,119 @@
+/* Write your CSS here */
+.lmc {
+  background-color: #1e293b;
+  padding: 0px;
+  border: 0px solid;
+  border-radius: 20px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.sc {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #475569;
+}
+
+.summary {
+  padding: 0px;
+}
+
+.ctl {
+  height: 150px;
+}
+
+.ct,
+.venue,
+.result {
+  font-size: 25px;
+}
+
+.date {
+  font-size: 30px;
+}
+
+.lbc {
+  padding: 25px;
+}
+
+.lmh {
+  font-size: 32px;
+}
+
+.lmp {
+  font-size: 25px;
+}
+
+@media (max-width: 576px) {
+  .sc {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #475569;
+  }
+
+  .summary {
+    padding: 0px;
+  }
+
+  .ctl {
+    height: 150px;
+  }
+
+  .ct,
+  .venue,
+  .result {
+    font-size: 15px;
+  }
+
+  .date {
+    font-size: 20px;
+  }
+
+  .lbc {
+    padding: 15px;
+  }
+
+  .lmh {
+    font-size: 22px;
+  }
+
+  .lmp {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .summary {
+    padding: 0px;
+  }
+
+  .ctl {
+    height: 50px;
+  }
+
+  .ct,
+  .venue,
+  .result {
+    font-size: 12px;
+  }
+
+  .date {
+    font-size: 15px;
+  }
+
+  .lbc {
+    padding: 12px;
+  }
+
+  .lmh {
+    font-size: 18px;
+  }
+
+  .lmp {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.tc {
+  min-height: 100vh;
+  font-family: 'Bree Serif';
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.RCB {
+  background-color: #a4261d;
+}
+
+.SH {
+  background-color: #f26d22;
+}
+
+.CSK {
+  background-color: #f7db00;
+}
+
+.MI {
+  background-color: #13418b;
+}
+
+.DC {
+  background-color: #4f5db0;
+}
+
+.KKR {
+  background-color: #5755a7;
+}
+
+.KXP {
+  background-color: #d91c1f;
+}
+
+.RR {
+  background-color: #da237b;
+}
+
+.tbi {
+  height: 450px;
+  max-width: 100%;
+  border: 0px solid;
+  border-radius: 10px;
+}
+
+.lm {
+  font-size: 35px;
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.mul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px;
+  max-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .lm {
+    font-size: 22px;
+  }
+
+  .tbi {
+    height: 270px;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  .lm {
+    font-size: 22px;
+  }
+
+  .tbi {
+    height: 270px;
+  }
+}
+
+@media (max-width: 575px){
+  .lm {
+    font-size: 15px;
+  }
+
+  .tbi {
+    height: 150px;
+  }
+}

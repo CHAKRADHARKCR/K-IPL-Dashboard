@@ -1,0 +1,133 @@
+/* Write your CSS here */
+.lic {
+  border: 0px solid;
+  border-radius: 20px;
+  padding: 15px;
+  width: 43%;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0f172a;
+  margin: 15px;
+  text-align: center;
+}
+
+.rml {
+  height: 100px;
+}
+
+.rmco {
+  font-size: 30px;
+}
+
+.status {
+  font-size: 25px;
+}
+
+.Won {
+  font-size: 25px;
+  color: #18ed66;
+}
+
+.Lost {
+  font-size: 25px;
+  color: #e31a1a;
+}
+
+@media (max-width: 576px) {
+  .lic {
+    height: 300px;
+    padding: 10px;
+  }
+
+  .rml {
+    height: 70px;
+  }
+
+  .rmco {
+    font-size: 18px;
+  }
+
+  .status {
+    font-size: 15px;
+  }
+
+  .Won {
+    font-size: 15px;
+    color: #18ed66;
+  }
+
+  .Lost {
+    font-size: 15px;
+    color: #e31a1a;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  .mp {
+    font-size: 17px;
+  }
+
+  .lic {
+    height: 380px;
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+  }
+
+  .rml {
+    height: 100px;
+  }
+
+  .rmco {
+    font-size: 24px;
+  }
+
+  .status {
+    font-size: 20px;
+  }
+
+  .Won {
+    font-size: 18px;
+    color: #18ed66;
+  }
+
+  .Lost {
+    font-size: 18px;
+    color: #e31a1a;
+  }
+}
+
+@media (max-width: 575px) {
+  .lic {
+    height: 250px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .rml {
+    height: 70px;
+  }
+
+  .rmco {
+    font-size: 15px;
+  }
+
+  .status {
+    font-size: 12px;
+  }
+
+  .Won {
+    font-size: 12px;
+    color: #18ed66;
+  }
+
+  .Lost {
+    font-size: 12px;
+    color: #e31a1a;
+  }
+}
