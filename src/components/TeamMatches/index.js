@@ -1,14 +1,13 @@
 // Write your code here
 // Write your code here
 import './index.css'
-
 import Loader from 'react-loader-spinner'
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
-
+import {Link} from 'react-router-dom'
 import {Component} from 'react'
-
 import MatchCard from '../MatchCard'
 import LatestMatch from '../LatestMatch'
+import MatchStatsPieChart from '../Stats'
 
 class TeamMatches extends Component {
   state = {loading: true, matches: {}}
@@ -52,9 +51,20 @@ class TeamMatches extends Component {
     const {match} = this.props
     const {params} = match
     const {id} = params
+    const win = rmd.filter(i => i.ms === 'Won').length
+    const loss = rmd.filter(i => i.ms === 'Lost').length
+    const draw = rmd.filter(i => i.ms === 'Draw').length || 0
+    const stats = {win, loss, draw}
     return (
       <div className={`tc ${id}`}>
+        <Link className="blink" to="/">
+          <button className="back" type="button">
+            Back
+          </button>
+        </Link>
         <img className="tbi" src={tbu} alt="team banner" />
+        <p className="lm">Stats</p>
+        <MatchStatsPieChart stats={stats} />
         <p className="lm">Latest Matches</p>
         <LatestMatch latest={lmd} />
         <ul className="mul">
