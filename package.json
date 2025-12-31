@@ -2,10 +2,8 @@
   "name": "ipl-dashboard-app",
   "private": true,
   "version": "1.0.0",
-  "packageManager": "pnpm@6.35.1",
   "engines": {
-    "node": "22.x",
-    "pnpm": ">=9"
+    "node": "18.x",
   },
   "dependencies": {
     "@testing-library/jest-dom": "5.11.9",
