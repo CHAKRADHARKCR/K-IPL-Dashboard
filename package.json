@@ -2,7 +2,7 @@
   "name": "ipl-dashboard-app",
   "private": true,
   "version": "1.0.0",
-  "packageManager": "pnpm@9.15.4",
+  "packageManager": "pnpm@7.33.7",
   "engines": {
     "node": "22.x",
     "pnpm": ">=9"
